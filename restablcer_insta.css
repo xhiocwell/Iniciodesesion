@@ -1,0 +1,98 @@
+h1 {
+    font-family: "Brush Script MT", normal;
+    text-align: left;
+    font-size: 40px;
+    font-weight: normal;
+    padding-left: 100px;
+  }
+  .candado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    padding-top: 80px;
+    color: black;
+    padding-bottom: 5px;
+  }
+  .tab{
+    border-collapse: collapse;
+    overflow: hidden;
+    width: 33%;
+    border: 1px solid #c3cecd;
+    position: relative;
+    left: 380px;
+    height: 500px;
+
+  }
+  input[type=text]{
+    padding-left: 33px;
+    width: 85%;
+    margin: 5px;
+    height: 25px;
+  }
+  input::placeholder {
+    font-size: 0.8em;
+  }
+  .button{
+    background-color:#00b7ff;
+    color: white;
+    font-size: 12px;
+    font-family: Helvetica;
+    border: none;
+    border-radius: 10px;
+    width: 96%;
+    padding: 8px;
+    display: block;
+    margin-left: 5px;
+    cursor: pointer;
+    display: flex; /* Cambia el display del elemento a flex */
+    justify-content: center; 
+  }
+  .conten{
+    padding-bottom: 80px;
+    padding-left: 13px;
+    padding-right: 8px;
+    text-align: center;
+  }
+  .inputdentro{
+    font-size: 20px;
+    color: #c3cecd;
+  }
+  .line-with-o {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+  }
+  
+  .line-with-o hr {
+    flex: 1;
+    height: 2px;
+    background-color: #c3cecd;
+    border: none;
+    margin: 0 10px;
+  }
+  
+  .line-with-o .circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+  }
+  .link2{
+    color: black;
+  }
+  .newcuenta{
+    font-size: 15px;
+    color: black;
+  }
+  a{
+    text-decoration: none;
+  }
+  .caja{
+    border: 1 solid #c3cecd;
+  }
